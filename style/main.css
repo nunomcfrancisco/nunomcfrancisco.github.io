@@ -1,0 +1,60 @@
+﻿body{
+    margin:0;
+    padding:0;
+}
+
+#box1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../content/pic01_1600x1200.jpg');
+    background-size: cover;
+    background-position:center;
+    display: table;
+    background-attachment:fixed;
+}
+
+#box2 {
+    height: 40vh;
+    width: 100%;
+    background-color:white;
+    display: table;
+    border:2px solid orange;
+}
+
+#box3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../content/pic03_1600x1200.jpg');
+    background-size: cover;
+    background-position:center;
+    display: table;
+    background-attachment:fixed;
+}
+
+#box4 {
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: table;
+    border: 2px solid orange;
+}
+
+#box5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../content/pic04_1600x1200.jpg');
+    background-size: cover;
+    background-position:center;
+    display: table;
+    background-attachment:fixed;
+}
+
+h1{
+    font-family: Arial Black;
+    font-size: 50px;
+    color: red;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
