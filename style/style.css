@@ -93,6 +93,23 @@ img{
 }
 /*---End Image Slider Style---*/
 
+.vcontainer{
+    height: 560px;
+    overflow: hidden;
+    display: block;
+}
+
+#intro{
+    margin-top: -100px;
+}
+
+.full{
+    width:88%;
+    float:left;
+    margin:4%;
+    text-align: center;
+}
+
 .one-half{
     width:44%;
     float:left;
@@ -159,6 +176,58 @@ img{
     color:#f1f1f1;
 }
 /*---End Parallax Style---*/
+
+/*---START Info ---*/
+.input-line{
+    width: 80%;
+    display: inline-block;
+    padding: 1%;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.input-line:focus{
+    outline: 0;
+}
+
+.input-multi{
+    resize: none;
+    display: inline-block;
+    padding: 1%;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    width: 80%;    
+}
+
+.input-multi:focus{
+    outline: 0;
+}
+
+.btn {
+    width: 50%;
+    display: inline-block;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ba5131;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #ba5a35;
+  text-decoration: none;
+}
+
+.btn:focus{
+    outline: 0;
+}
+/*---END Info ---*/
 
 footer{
     background:#ba5a31;
